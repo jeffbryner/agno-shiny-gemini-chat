@@ -29,8 +29,12 @@ uv pip install -r requirements.txt
 Run via: 
 
 ```
+gcloud auth application-default login
 gcloud config set project <projectid>
 python shiny_chat.py
 ```
-which will open a browser window locally that uses gemini in whatever project you have set
+which will open a browser window locally that uses gemini in whatever project you have set.
+
+The agno framework stores sessions, memory, etc in the ./tmp directory. If you feel the need to reset just rm -rf ./tmp
+
 
