@@ -1,0 +1,5 @@
+shiny
+agno
+duckdb
+duckduckgo-search
+sqlalchemy
