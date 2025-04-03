@@ -3,3 +3,4 @@ agno
 duckdb
 duckduckgo-search
 sqlalchemy
+google-genai
